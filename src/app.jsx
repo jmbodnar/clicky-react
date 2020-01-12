@@ -9,51 +9,51 @@ class Game extends Component {
     wins: 0,
     cards: [
       {
-        imageUrl: "/assets/images/img01.jpg",
+        imageUrl: "assets/images/img01.jpg",
         alt: "one"
       },
       {
-        imageUrl: "/assets/images/img02.jpg",
+        imageUrl: "assets/images/img02.jpg",
         alt: "two"
       },
       {
-        imageUrl: "/assets/images/img03.jpg",
+        imageUrl: "assets/images/img03.jpg",
         alt: "three"
       },
       {
-        imageUrl: "/assets/images/img04.jpg",
+        imageUrl: "assets/images/img04.jpg",
         alt: "four"
       },
       {
-        imageUrl: "/assets/images/img05.jpg",
+        imageUrl: "assets/images/img05.jpg",
         alt: "five"
       },
       {
-        imageUrl: "/assets/images/img06.jpg",
+        imageUrl: "assets/images/img06.jpg",
         alt: "six"
       },
       {
-        imageUrl: "/assets/images/img07.jpg",
+        imageUrl: "assets/images/img07.jpg",
         alt: "seven"
       },
       {
-        imageUrl: "/assets/images/img08.jpg",
+        imageUrl: "assets/images/img08.jpg",
         alt: "eight"
       },
       {
-        imageUrl: "/assets/images/img09.jpg",
+        imageUrl: "assets/images/img09.jpg",
         alt: "nine"
       },
       {
-        imageUrl: "/assets/images/img10.jpg",
+        imageUrl: "assets/images/img10.jpg",
         alt: "ten"
       },
       {
-        imageUrl: "/assets/images/img11.jpg",
+        imageUrl: "assets/images/img11.jpg",
         alt: "eleven"
       },
       {
-        imageUrl: "/assets/images/img12.jpg",
+        imageUrl: "assets/images/img12.jpg",
         alt: "twelve"
       }
     ],
