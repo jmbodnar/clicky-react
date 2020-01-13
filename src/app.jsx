@@ -66,9 +66,7 @@ class Game extends Component {
       alert(
         `That's a duplicate. \nYour current best is ${best}.\nLet's play again!`
       );
-      this.setState({ clicks: 0 });
-      this.setState({ clicked: [] });
-      this.setState({ cards: this.shuffle(cards) });
+      this.setState({ clicks: 0, clicked: [], cards: this.shuffle(cards) });
       return;
     } else if (clicks + 1 === 12) {
       this.processWin();
@@ -82,11 +80,13 @@ class Game extends Component {
 
   processWin = () => {
     const { wins, cards } = this.state;
-    this.setState({ wins: wins + 1 });
-    this.setState({ clicks: 0 });
-    this.setState({ clicked: [] });
-    this.setState({ best: 0 });
-    this.setState({ cards: this.shuffle(cards, true) });
+    this.setState({
+      wins: wins + 1,
+      clicks: 0,
+      clicked: [],
+      best: 0,
+      cards: this.shuffle(cards, true)
+    });
   };
 
   checkBest = clicks => {
